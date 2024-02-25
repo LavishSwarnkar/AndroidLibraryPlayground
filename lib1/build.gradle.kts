@@ -49,6 +49,8 @@ publishing {
             groupId = "com.github.LavishSwarnkar"
             artifactId = "lib1"
             version = "1.0"
+
+            from(components["java"])
         }
     }
 }
