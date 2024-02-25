@@ -44,10 +44,14 @@ dependencies {
 
 publishing {
     publications {
-        create(MavenPublication) {
+        maven(MavenPublication) {
             groupId = "com.github.LavishSwarnkar"
             artifactId = "lib1"
             version = "1.0"
+
+            afterEvaluate {
+                from components.release
+            }
         }
     }
 }
