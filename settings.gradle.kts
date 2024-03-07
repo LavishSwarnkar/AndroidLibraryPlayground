@@ -3,6 +3,12 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        gradlePluginPortal()
+        maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+    }
+
+    plugins {
+        id("org.jetbrains.compose").version(extra["compose.version"] as String)
     }
 }
 dependencyResolutionManagement {
@@ -18,3 +24,4 @@ rootProject.name = "LibraryPlayground"
 include(":app")
 include(":lib1")
 include(":lib2")
+include(":lib3")

@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/lib1" />
             <option value="$PROJECT_DIR$/lib2" />
+            <option value="$PROJECT_DIR$/lib3" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
